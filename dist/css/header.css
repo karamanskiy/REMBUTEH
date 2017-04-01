@@ -11,7 +11,7 @@ body {
   font-weight: 500;
   color: #000;
   -webkit-font-smoothing: antialiased;
-  background-color: #d3d1d2; }
+  background-color: #fff; }
 
 a, a:visited, a:focus {
   color: #000;
@@ -19,8 +19,7 @@ a, a:visited, a:focus {
 
 a:hover {
   text-decoration: none;
-  outline: none;
-  color: #c42028; }
+  outline: none; }
 
 a:focus, .btn:focus {
   outline: none;

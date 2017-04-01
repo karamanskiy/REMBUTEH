@@ -8,8 +8,6 @@
 
 @media screen and (max-width: 1024px) {
 
-	.bottom i, .bottom .side-line {display: none;}
-
 
 } //1024
 
@@ -17,122 +15,15 @@
 
 @media screen and (max-width: 767px) {
 
-	.header {
-		text-align: center;
-		padding-top: 0;
-		.left-part {
-			padding-top: 0;
-			a {
-				display: inline-block;
-				margin-bottom: 10px;
-			}
-		}
-		.right-part {
-			text-align: center;
-			.black-btn {
-				float: none;
-				margin: 10px auto;
-			}
-		}
-	}
-
-	.arcticmodal-close {
-		right: 10px;
-	}
-
-	.main-slider #nextBtn a, .main-slider #prevBtn a {
-		width: 30px;
-		height: 30px;
-	}
-	.main-slider #nextBtn, .main-slider #prevBtn {
-		width: 30px;
-		height: 35px;
-	}
-	.main-slider #nextBtn {top: 40%;right: 0;}
-	.main-slider #prevBtn {top: 40%;left: 0;}
-
-	.open-menu {
-		position: absolute;
-		top: 10px;
-		right: 10px;
-		width: 25px;
-		height: 25px;
-		background-image: url('../img/hamb.png');
-		background-size: contain;
-		z-index: 1;
-	}
-	.close-menu {
-		position: absolute;
-		top: 10px;
-		right: 10px;
-		width: 25px;
-		height: 25px;
-		background-image: url('../img/close-menu.png');
-		background-size: contain;
-		z-index: 11;
-	}
-	.menu {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: #fff;
-		z-index: 10;
-		padding-top: 30px;
-		transform: translate3d(-100%,0,0);
-		transition: all .25s;
-		&.active {transform: translate3d(0,0,0);}
-		li {width: 100%;}
-	}
-
-	.nav-on-page li a {padding: 10px;}
-	.main-slider {padding: 0;}
-	footer .podpiska input[type='email'] {margin: 15px;}
-
 } //767
 	
 
 @media screen and (max-width: 480px) {
 
-	.tabs-menu li {width: 100%;}
-	.review .wrap-form {width: 100%;}
-	.review .wrap-form .caption,
-	.review .wrap-form .input {
-		float: none;
-		width: 100%;
-		text-align: center;
-		margin: 10px 0;
-	}
-	.review .wrap-form .line {margin-bottom: 10px;}
-	.bottom i {display: none;}
-	.bottom p {margin-bottom: 3px;}
-	.bottom .callback {
-		display: block;
-		width: 300px;
-		margin: 10px auto;
-	}
-	.bottom .side-line {
-		position: relative;
-		width: 100%;
-		height: 2px;
-		top: 0;
-		margin: 10px 0;
-	}
-	#callback-modal {width: 100%;}
-	.logo {margin: 15px 0;}
-
 
 } //iPhone6
 
 @media screen and (max-width: 400px) {
-
-	.tabs-menu .tabs__content .item {width: 300px;}
-	.tabs-menu .tabs__content .line {width: 50px;}
-
-	.review .wrap-form .line2 input[type='text'] {
-		width: 200px;
-	}
 
 
 }
@@ -141,14 +32,5 @@
 @media screen and (max-width: 320px) {
 
 
-
-	#map-box {
-		position: relative;
-		width: 100%;
-		height: 200px;
-	}
-
-	footer .top span {padding: 0 5px;}
-	
 	
 } //iPhone5

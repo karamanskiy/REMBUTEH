@@ -70,7 +70,7 @@ gulp.task("minJsLibs", function(){
 				'src/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js',
 				// 'src/libs/Headhesive.js/dist/headhesive.min.js',
 				// 'src/libs/owl-carousel/owl-carousel/owl.carousel.min.js',
-				'src/libs/bxslider-4/dist/jquery.bxslider.min.js'
+				// 'src/libs/bxslider-4/dist/jquery.bxslider.min.js'
 	])
 			.pipe(concat("libs.min.js")) // собираем все библиотеки в один файл
 			.pipe(uglify()) // сжимаем

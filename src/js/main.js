@@ -1,6 +1,6 @@
-"use strict";
+// "use strict";
 
-$(function(){
+// $(function(){
 
 	$(document).ready(function(){
 
@@ -8,29 +8,8 @@ $(function(){
 			e.preventDefault();
 			$('#callback-modal').arcticmodal();
 		});
-		$('.left-part a, .bottom-map').click(function(e) {
-			e.preventDefault();
-			$('#map-box').arcticmodal();
-		});
-		if(window.innerWidth < 480) {
-			$('#map-box iframe').width(320);
-		}
 
-		$('.big-slider').bxSlider({
-			infiniteLoop: true,
-			nextSelector:'#nextBtn',
-			prevSelector:'#prevBtn',
-			nextText: '',
-			prevText: '',
-			controls: true,
-			touchEnabled: true,
-			pager:false,
-			auto: false,
-			speed: 500,
-			minSlides: 1,
-			maxSlides: 1,
-			moveSlides: 1
-		});
+		
 
 
 		//ВКЛАДКИ
@@ -51,4 +30,4 @@ $(function(){
 		$('.close-menu').click(function() {$('.menu').removeClass('active');});
 
 	});
-});
+// });

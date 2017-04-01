@@ -15,7 +15,7 @@ body {
 	font-weight: 500;
 	color: #000;
 	-webkit-font-smoothing: antialiased;
-	background-color: #d3d1d2;
+	background-color: #fff;
 	// position: relative;
 }
 
@@ -27,7 +27,6 @@ a, a:visited, a:focus {
 a:hover {
 	text-decoration: none;
 	outline: none;
-	color: $red;
 }
 
 a:focus, .btn:focus {

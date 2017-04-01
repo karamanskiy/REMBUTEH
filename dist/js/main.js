@@ -1,6 +1,6 @@
-"use strict";
+// "use strict";
 
-$(function(){
+// $(function(){
 
 	$(document).ready(function(){
 
@@ -8,13 +8,8 @@ $(function(){
 			e.preventDefault();
 			$('#callback-modal').arcticmodal();
 		});
-		$('.left-part a, .bottom-map').click(function(e) {
-			e.preventDefault();
-			$('#map-box').arcticmodal();
-		});
-		if(window.innerWidth < 480) {
-			$('#map-box iframe').width(320);
-		}
+
+		
 
 		$('.big-slider').bxSlider({
 			infiniteLoop: true,
@@ -38,6 +33,7 @@ $(function(){
 			e.preventDefault();
 		  $(this).addClass('active').siblings().removeClass('active').closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
 		});
+		$('ul.tabs__caption').on('click', function(e) {e.preventDefault();});
 
 		//ПЛАВНАЯ ПРОКРУТКА
 		//плавный переход меню
@@ -50,4 +46,4 @@ $(function(){
 		$('.close-menu').click(function() {$('.menu').removeClass('active');});
 
 	});
-});
+// });

@@ -13,6 +13,10 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #fff; }
 
+a, i {
+  -webkit-transition: all .25s;
+  transition: all .25s; }
+
 a, a:visited, a:focus {
   color: #000;
   text-decoration: none; }
@@ -30,8 +34,7 @@ input:focus, textarea:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  text-align: center; }
+  font-weight: 500; }
 
 p {
   font-family: "Roboto", sans-serif;
@@ -48,7 +51,7 @@ ul, ol {
 li {
   list-style: none; }
 
-.clear {
+.clear, .cleafix {
   clear: both; }
 
 /* Стили хедера */

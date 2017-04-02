@@ -15,10 +15,46 @@
 
 @media screen and (max-width: 767px) {
 
+	header {
+		.top-line {
+			.social {
+				text-align: center;
+				i {margin: 0 15px;}
+			}
+			.top-menu {text-align: center;}
+		}
+		.bottom-line {
+			.second-img {display: none;}
+			.logo {text-align: center;}
+			.header-tel {
+				text-align: center;
+				.callback  {display: block;margin: auto;}
+			}
+		}
+	}
+	.nadpis-1, .nadpis-2 {
+		width: 240px;
+		margin: 10px auto;
+	}
+
+	footer {
+		text-align: center;
+		.main-part .footer-tel {text-align: center;}
+		.copy p {font-size: 12px;}
+		.main-part .footer-tel .callback {
+			display: block;
+			margin: auto;
+		}
+	}
+	
+	.main-section .bg-punkt .item {margin-bottom: 15px;}
+
 } //767
 	
 
 @media screen and (max-width: 480px) {
+
+	.main-section .top h2 {font-size: 34px;}
 
 
 } //iPhone6

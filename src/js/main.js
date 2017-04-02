@@ -9,7 +9,7 @@
 			$('#callback-modal').arcticmodal();
 		});
 
-		
+		$('ul.catalog li').click(function() {$(this).toggleClass('active');});
 
 
 		//ВКЛАДКИ

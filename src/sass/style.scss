@@ -66,7 +66,7 @@ header {
 			.callback {
 				width: 195px;
 				height: 40px;
-				line-height: 40px;
+				line-height: 38px;
 				text-align: center;
 				font-size: 20px;
 				color: $gray;
@@ -179,7 +179,7 @@ header {
 			.descr {
 				height: 130px;
 				overflow: hidden;
-				padding: 0 18px;
+				padding: 0 10px;
 				font-size: 16px;
 				text-align: center;
 				color: #2a2a2a;
@@ -443,6 +443,10 @@ footer {
 	}
 	ul.catalog {
 		border: 1px solid #e6e6e6;
+		&.not-zapchasti li {
+			a {color: #8f8f8f;}
+			&:after {display: none;}
+		}
 		&>li {
 			line-height: 55px;
 			font-family: "Palatino Linotype", "Times New Roman", "Roboto", sans-serif;
@@ -571,6 +575,33 @@ footer {
 		overflow: hidden;
 	}
 }
+.catalog {
+	.wrap-img {
+		height: 315px;
+		line-height: 315px;
+		overflow: hidden;
+		vertical-align: middle;
+		text-align: center;
+		img {max-height: 100%;}
+	}
+	p.title {
+		color: #3b7b77;
+		font-size: 18px;
+		text-align: left;
+		height: 40px;
+		margin: 10px 0;
+		overflow: hidden;
+	}
+	.params {
+		color: #878787;
+		font-size: 13px;
+		margin: 10px 0;
+		height: 50px;
+		overflow: hidden;
+		font-family: "Palatino Linotype", "Times New Roman", "Roboto", sans-serif;
+	}
+}
+
 
 .pagination {
 	display: table;

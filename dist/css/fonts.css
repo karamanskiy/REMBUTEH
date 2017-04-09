@@ -2191,3 +2191,19 @@
   margin: 0;
   overflow: visible;
   clip: auto; }
+
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url("../fonts/Palatino Linotype/Palatino Linotype Bold.eot");
+  src: url("../fonts/Palatino Linotype/Palatino Linotype Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Palatino Linotype/Palatino Linotype Bold.woff2") format("woff2"), url("../fonts/Palatino Linotype/Palatino Linotype Bold.woff") format("woff"), url("../fonts/Palatino Linotype/Palatino Linotype Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url("../fonts/Palatino Linotype/Palatino Linotype.eot");
+  src: url("../fonts/Palatino Linotype/Palatino Linotype.eot?#iefix") format("embedded-opentype"), url("../fonts/Palatino Linotype/Palatino Linotype.woff2") format("woff2"), url("../fonts/Palatino Linotype/Palatino Linotype.woff") format("woff"), url("../fonts/Palatino Linotype/Palatino Linotype.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }

@@ -49,12 +49,56 @@
 	
 	.main-section .bg-punkt .item {margin-bottom: 15px;}
 
+
+	header .top-line .top-menu {float: none;}
+	header .top-line .top-menu li {display: block;}
+
+	footer .soc-icons i, footer .copy i {font-size: 28px;}
+
 } //767
 	
 
 @media screen and (max-width: 480px) {
 
+	#callback-modal {width: 85%;margin: auto;}
+
 	.main-section .top h2 {font-size: 34px;}
+
+	.second-menu .menu-item li {
+		width: 100%;float: none;
+		border-bottom: 2px solid rgba(255,255,255,.3);
+	}
+	.second-menu .menu-item li a,
+	.second-menu .menu-item li:first-child a {border: none;}
+
+	.banner1 .wrapper .text, .banner2 .wrapper .text, .banner3 .wrapper .text {padding: 10px;background-color: #34e6bb;}
+
+	.wrapper {background: #34e6bb !important;}
+	.banner3 .wrapper h2 {font-size: 46px;text-align: center;}
+	.banner4 {text-align: center;}
+	.remont.stiralki .wrap-img {height: auto;}
+	.remont.stiralki .text {font-size: 18px;}
+	.banner2 h2, .banner2 h3 {font-size: 34px;}
+	.banner1 .wrapper h2 {font-size: 46px;}
+	.banner1 .wrapper h3, .banner1 .wrapper h4 {font-size: 36px;}
+
+	.banner2-img, .banner1 .banner1-img {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.zapch-elem .item {margin-bottom: 20px;}
+	.podderzhka h3 {padding: 0;}
+	.reviews .review-form {padding: 10px;}
+	.reviews .review-form input[type='submit'] {
+		display: block;
+		margin: 10px auto;
+		float: none;
+	}
+	.right h1 {font-size: 22px;}
+
+
 
 
 } //iPhone6

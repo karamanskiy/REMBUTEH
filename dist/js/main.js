@@ -4,27 +4,40 @@
 
 	$(document).ready(function(){
 
-		$('a.callback').click(function(e) {
+		$('.vakansii .read-more').click(function() {
+			$(this).parent().parent().find('.hide-descr').slideToggle('fast');
+		});
+
+		$('a.callback, .btn-vopros, .btn-master').click(function(e) {
 			e.preventDefault();
 			$('#callback-modal').arcticmodal();
 		});
+		$('.btn-map').click(function(e) {
+			e.preventDefault();
+			$('#map-modal').arcticmodal();
+		});
 
-		
+		$('ul.catalog li').click(function() {$(this).toggleClass('active');});
 
-		$('.big-slider').bxSlider({
-			infiniteLoop: true,
-			nextSelector:'#nextBtn',
-			prevSelector:'#prevBtn',
-			nextText: '',
-			prevText: '',
-			controls: true,
-			touchEnabled: true,
-			pager:false,
-			auto: false,
-			speed: 500,
-			minSlides: 1,
-			maxSlides: 1,
-			moveSlides: 1
+
+		$(".owl-carousel").owlCarousel({
+			loop: true,
+			margin: 20,
+			responsiveClass: true,
+			navText: ['<img src="img/prev-btn.png" alt="prev">','<img src="img/next-btn.png" alt="next">'],
+			responsive:{
+			    0:{
+			        items:1,
+			        nav:true
+			    },
+			    600:{
+			        items:2
+			    },
+			    1000:{
+			        items:4,
+			        nav:true
+			    }
+			}
 		});
 
 
